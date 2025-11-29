@@ -1,0 +1,133 @@
+{
+  "store_name": "ElectroHub",
+  "store_type": "Електроніка",
+  "users": [
+    {
+      "user_id": 1,
+      "name": "Олена Величко",
+      "email": "olena.seller1@gmail.com",
+      "role": "seller",
+      "phone": "+380971112233"
+    },
+    {
+      "user_id": 2,
+      "name": "Максим Гриненко",
+      "email": "maksym.techshop@gmail.com",
+      "role": "seller",
+      "phone": "+380991234567"
+    },
+    {
+      "user_id": 3,
+      "name": "Софія Литвин",
+      "email": "sofia.electro@gmail.com",
+      "role": "seller",
+      "phone": "+380934445566"
+    },
+    {
+      "user_id": 4,
+      "name": "Дмитро Кравець",
+      "email": "dmytro.gadgets@gmail.com",
+      "role": "seller",
+      "phone": "+380677778899"
+    },
+    {
+      "user_id": 5,
+      "name": "Анастасія Бондар",
+      "email": "nastya.electronics@gmail.com",
+      "role": "seller",
+      "phone": "+380951234567"
+    }
+  ],
+  "products": [
+    {
+      "product_id": 101,
+      "title": "Смартфон Samsung Galaxy S24 Ultra 512GB Titanium Black",
+      "price": 49999,
+      "category": "Смартфони",
+      "in_stock": true,
+      "stock_quantity": 8,
+      "user_id": 1
+    },
+    {
+      "product_id": 102,
+      "title": "Ноутбук ASUS ROG Strix G16 i9-13980HX/RTX 4080/32GB",
+      "price": 104999,
+      "category": "Ноутбуки",
+      "in_stock": true,
+      "stock_quantity": 3,
+      "user_id": 2
+    },
+    {
+      "product_id": 103,
+      "title": "Навушники Sony WH-1000XM5 Black",
+      "price": 14999,
+      "category": "Аудіотехніка",
+      "in_stock": true,
+      "stock_quantity": 20,
+      "user_id": 3
+    },
+    {
+      "product_id": 104,
+      "title": "Монітор Samsung Odyssey G9 49\" 240Hz",
+      "price": 59999,
+      "category": "Монітори",
+      "in_stock": true,
+      "stock_quantity": 6,
+      "user_id": 4
+    },
+    {
+      "product_id": 105,
+      "title": "Планшет Apple iPad Pro 13\" M4 1TB Wi-Fi",
+      "price": 84999,
+      "category": "Планшети",
+      "in_stock": false,
+      "stock_quantity": 0,
+      "user_id": 5
+    },
+    {
+      "product_id": 106,
+      "title": "Ігрова консоль Sony PlayStation 5 Pro",
+      "price": 32999,
+      "category": "Ігрові консолі",
+      "in_stock": true,
+      "stock_quantity": 15,
+      "user_id": 1
+    },
+    {
+      "product_id": 107,
+      "title": "Смарт-годинник Garmin Fenix 8 51mm",
+      "price": 42999,
+      "category": "Смарт-годинники",
+      "in_stock": true,
+      "stock_quantity": 9,
+      "user_id": 2
+    },
+    {
+      "product_id": 108,
+      "title": "Бездротові навушники Apple AirPods Max Silver",
+      "price": 24999,
+      "category": "Аудіотехніка",
+      "in_stock": true,
+      "stock_quantity": 12,
+      "user_id": 3
+    },
+    {
+      "product_id": 109,
+      "title": "Клавіатура Keychron Q1 Pro White (Red switches)",
+      "price": 8999,
+      "category": "Периферія",
+      "in_stock": true,
+      "stock_quantity": 25,
+      "user_id": 4
+    },
+    {
+      "product_id": 110,
+      "title": "SSD WD Black SN850X 4TB NVMe",
+      "price": 18999,
+      "category": "Накопичувачі",
+      "in_stock": true,
+      "stock_quantity": 18,
+      "user_id": 5
+    }
+  ]
+}
