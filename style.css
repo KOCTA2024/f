@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(45deg,rgb(120, 55, 255), rgb(255, 80, 200));
+    font-family: system-ui, sans-serif;
+}
+
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    max-width: 1024px;
+    margin: 2rem auto;
+    color: rgb(250, 245, 255);
+    padding: 1rem;
+    align-items: stretch;
+}
+a, a:link, a:visited {
+    color: #ffffff !important;           
+}
+a:hover, a:active {
+    color: #ff80c0 !important;           
+    text-decoration: underline;
+}
+.product {
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    padding: 1.8rem;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    flex-grow: 1;
+}
+a {
+display: inline-block;
+    padding: 14px 28px;
+    background: transparent;                    /* убираем красный фон */
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid rgba(255, 255, 255, 0.5);  /* белая полупрозрачная рамка */
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+a:hover, a:focus {
+    background: rgba(255, 255, 255, 0.15);
+    text-decoration: none !important;
+}
