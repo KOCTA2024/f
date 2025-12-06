@@ -1,8 +1,14 @@
 body{
     background: linear-gradient(45deg,rgb(120, 55, 255), rgb(255, 80, 200));
     font-family: system-ui, sans-serif;
+    min-height: 100vh;
 }
-
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
 
 main{
     display: grid;
@@ -29,6 +35,17 @@ a:hover, a:active {
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
+
+}
+.user_product {
+        min-width: 1000px;
+            border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 20px;
+    padding: 1.8rem;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
 }
 
 h4 {
@@ -49,4 +66,39 @@ display: inline-block;
 a:hover, a:focus {
     background: rgba(255, 255, 255, 0.15);
     text-decoration: none !important;
+}
+#seller_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#user_name, #user_phone, #user_email, #user_role{
+    font-weight: 600;
+    display: block;
+    width: 100%;
+}
+.cartWrapper{
+    position: relative;
+    width: fit-content;
+
+}
+.cart {
+    position: absolute;
+    width: 300px;
+    top: 2rem;
+    background-color: white;
+}
+
+.cart:before{
+    content: "";
+    height: 1rem;
+    z-index: 5;
+    position:absolute;
+    bottom: 1.3rem;
+    right:0.2rem;
+    border:1rem solid transparent;
+    border-bottom-color: black;
+    border-bottom-width: 1rem;
 }
